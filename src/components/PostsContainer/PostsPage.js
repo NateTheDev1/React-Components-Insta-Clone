@@ -9,6 +9,14 @@ import dummyData from "../../dummy-data";
 const PostsPage = (props) => {
   // set up state for your data
 
+  // setData(
+  //   dummyData.filter((d) => {
+  //     if (d.username.includes(props.filter)) {
+  //       return d;
+  //     }
+  //   })
+  // );
+
   const [data, setData] = useState(dummyData);
 
   return (

@@ -29,3 +29,19 @@
 .social {
   width: 50px;
 }
+
+.insta-logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta-logo h1 {
+  font-size: 0.5rem;
+}
+
+.insta-logo img {
+  max-width: 50%;
+  margin-left: 50px;
+}
